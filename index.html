@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Streaming Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Anime Streaming</h1>
+    <input type="text" id="search" placeholder="Cari anime...">
+  </header>
+
+  <main>
+    <!-- Section untuk daftar anime -->
+    <section id="anime-list">
+      <!-- Section untuk anime populer -->
+      <section id="popular-anime">
+        <h2>Anime Populer</h2>
+        <div id="popular-anime-list" class="anime-list"></div>
+      </section>
+
+      <!-- Section untuk anime terbaru -->
+      <section id="recent-anime">
+        <h2>Anime Terbaru</h2>
+        <div id="recent-anime-list" class="anime-list"></div>
+      </section>
+    </section>
+
+    <!-- Section untuk detail anime -->
+    <section id="anime-detail" class="anime-detail hidden">
+      <button id="back-button">Kembali ke Daftar Anime</button>
+      <div id="detail-content">
+        <!-- Detail anime akan dimuat di sini -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Anime Streaming. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

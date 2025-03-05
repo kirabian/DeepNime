@@ -1,0 +1,174 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #search {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Section untuk anime populer dan terbaru */
+  #popular-anime,
+  #recent-anime {
+    padding: 20px;
+  }
+  
+  #popular-anime h2,
+  #recent-anime h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .anime-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .anime-card {
+    background-color: #444;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .anime-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .anime-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .anime-card h3 {
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Section untuk detail anime */
+  .anime-detail {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #detail-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #detail-content img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  #detail-content h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  #detail-content p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  /* Section untuk iframe episode */
+  #episode-section {
+    margin-top: 20px;
+  }
+  
+  #episode-iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Tampilan tombol episode */
+  .episode-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .episode-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .episode-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Tombol Kembali */
+  #back-button {
+    padding: 10px 20px;
+    background-color: #ff4757;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Media Query standar untuk forced colors */
+  @media (forced-colors: active) {
+    /* Tambahkan style khusus jika diperlukan */
+  }
+  
